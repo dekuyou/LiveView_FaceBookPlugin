@@ -1,0 +1,17 @@
+<PreferenceScreen	xmlns:android="http://schemas.android.com/apk/res/android" android:order="10" android:title="LiveFBview">
+	
+	<!--
+		Add your additional preferences here.
+	-->
+
+
+
+
+<CheckBoxPreference android:order="10" android:defaultValue="true" android:enabled="false" android:title="NEWS FEED" android:key="NEWSFEEDEnabled" android:selectable="true"></CheckBoxPreference>
+
+
+<ListPreference android:title="Font Size" android:entryValues="@array/fontSizevalues" android:entries="@array/fontSize" android:key="FontSize" android:order="200" android:selectable="false" android:defaultValue="10"></ListPreference>
+
+
+
+</PreferenceScreen>

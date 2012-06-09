@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LiveFBview Plugin For Liveview</string>
+    <!-- 
+    	The following strings needs to be defined in order for the Plugin to function.
+    -->
+    <string name="pluginname">LiveFBview</string>
+    <string name="intent_preferences">jp.ddo.dekuyou.liveview.plugins.facebook.PREFERENCES</string>
+    <string name="intent_service">jp.ddo.dekuyou.liveview.plugins.facebook.facebookpluginservice</string>
+    <string name="application_description">Extends:com.sonyericsson.extras.liveview</string>
+</resources>
